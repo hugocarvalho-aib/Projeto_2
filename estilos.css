@@ -1,0 +1,64 @@
+/* Estilo geral da página */
+body {
+    background-color: #fce4ec;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #ff80ab;
+    font-family: Georgia, serif;
+}
+
+/* Subtítulos */
+h2 {
+    color: #8e24aa;
+    font-family: Arial, sans-serif;
+}
+
+/* Parágrafo em destaque */
+.destaque {
+    background-color: #f8bbd0;
+    color: #6a1b9a;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+/* Lista */
+li {
+    margin: 10px 0;
+}
+
+/* Imagem */
+img {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Hiperligação */
+a {
+    color: #00838f;
+}
+
+/*
+Mecanismo de Avaliação Metacognitiva
+
+1. Desafio Técnico:
+A parte mais difícil foi conseguir que a imagem não ultrapassasse o espaço disponível. Resolvi isso utilizando max-width: 100%, para que a imagem se adapte à largura do espaço onde está inserida.
+
+2. Correção de Sintaxe:
+Um erro que poderia acontecer durante a escrita do CSS seria esquecer uma chaveta de fecho. Para o corrigir, teria de verificar as regras e confirmar que todas as chavetas estavam corretamente fechadas.
+
+3. Autoria:
+O atributo src indica o caminho ou endereço do ficheiro de imagem que quero apresentar na página.
+*/
